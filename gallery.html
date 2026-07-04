@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | MANTRA Educational Institutions</title>
+  <meta name="description" content="View our campus gallery featuring workshops, student projects and academic events.">
+  <meta name="keywords" content="campus gallery, student projects, workshops, academic events">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">MANTRA Educational Institutions</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="programs.html">Programs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="registration.html">Registration</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-banner"><div class="container"><h1>Gallery</h1><p></p>Explore our Courses.</p></div></section>
+<section class="container section">
+  <h2>Course Images</h2>
+  <div class="filter-buttons"><button class="btn small" onclick="filterGallery('all')">All</button><button class="btn small" onclick="filterGallery('ai')">AI</button><button class="btn small" onclick="filterGallery('data_sci')">Data Science</button><button class="btn small" onclick="filterGallery('cyber')">Cyber Security</button><button class="btn small" onclick="filterGallery('webdev')">Web Development</button>
+</div>
+  <div class="gallery-grid">
+
+<img class="gallery-item webdev"
+src="images/web_dev2.jpg"
+alt="Web Development">
+
+<img class="gallery-item ai"
+src="images/ai1.jpg"
+alt="Artificial Intelligence">
+
+<img class="gallery-item data_sci"
+src="images/data_sci1.jpg"
+alt="Data Science">
+
+<img class="gallery-item cyber"
+src="images/cybersec1.jpg"
+alt="Cyber Secuirty">
+
+</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>MANTRA Educational Institutions</h3>
+      <p>Providing quality education in Web Development, Data Science and Artificial Intelligence.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <p><a href="courses.html">Courses</a> | <a href="programs.html">Programs</a> | <a href="registration.html">Register Now</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: info@mantraeducation.com<br>Phone: +91-9876543210</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 MANTRA Educational Institutions. Designed for MANTRA 2026 Summer School.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
