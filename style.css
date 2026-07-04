@@ -75,8 +75,8 @@ body{
     min-height:70vh;
     background:
         linear-gradient(
-            rgba(15,76,129,.10),
-            rgba(15,76,129,.30)
+            rgba(15,76,129,.25),
+            rgba(15,76,129,.25)
         ),
         url("images/Main.png") center center/cover no-repeat;
 
