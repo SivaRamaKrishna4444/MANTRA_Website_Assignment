@@ -1,0 +1,15 @@
+# MANTRA Educational Institutions
+
+Website: https://mantraedu.netlify.app/
+
+Description:
+MANTRA Educational Institutions provides quality education and training in Web Development, Data Science, Artificial Intelligence, Machine Learning and Cyber Security.
+
+Pages:
+- Home
+- About
+- Courses
+- Programs
+- Gallery
+- Registration
+- Contact
